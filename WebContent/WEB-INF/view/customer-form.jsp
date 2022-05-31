@@ -17,6 +17,12 @@
 			Last Name (*): <form:input path="lastName" />
 			<form:errors path="lastName" cssClass="error" />
 			<br><br>
+			Free passes: <form:input path="freePasses" />
+			<form:errors path="freePasses" cssClass="error" />
+			<br><br>
+			Postcode: <form:input path="postCode" />
+			<form:errors path="postCode" cssClass="error" />
+			<br><br>
 			<input type="submit" value="Submit" />
 		</form:form>
 	</body>
